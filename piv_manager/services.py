@@ -1,4 +1,4 @@
-"""Validated business operations for PIV Manager records."""
+"""Validated business operations for VALIMAN records."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-# PIV Manager User Guide
+# VALIMAN User Guide
 
 ## 1. Start and sign in
 
@@ -129,7 +129,7 @@ Only administrators can open **Administration**. Create additional accounts with
 
 Select **Create verified backup** to make an integrity-checked SQLite backup. Backups are stored under `%USERPROFILE%\.piv_manager\backups` by default. Keep them protected because they contain operational and user data.
 
-To restore, select a SQLite backup and confirm the warning. PIV Manager creates a safety backup of the current database before replacing it. A restore replaces current records with the chosen backup. Keep the app on the same workstation while restoring and verify project/test records after the restore.
+To restore, select a SQLite backup and confirm the warning. VALIMAN creates a safety backup of the current database before replacing it. A restore replaces current records with the chosen backup. Keep the app on the same workstation while restoring and verify project/test records after the restore.
 
 ## 13. Local deployment notes
 

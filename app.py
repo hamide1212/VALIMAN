@@ -40,7 +40,7 @@ st.markdown("""
 
 
 def show_first_admin_setup():
-    st.title("PIV Manager")
+    st.title("VALIMAN")
     st.subheader("Initial administrator setup")
     st.info("Create the first local administrator. Passwords are stored as salted PBKDF2 hashes.")
     with st.form("first_admin"):
@@ -63,7 +63,7 @@ def show_first_admin_setup():
 
 
 def show_login():
-    st.title("PIV Manager")
+    st.title("VALIMAN")
     st.subheader("Sign in")
     with st.form("login"):
         username = st.text_input("Username")

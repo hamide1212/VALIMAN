@@ -48,7 +48,7 @@ def render(database_path, user):
     backup_dir = DATA_DIR / "backups"
     backup_dir.mkdir(parents=True, exist_ok=True)
     if st.button("Create verified backup"):
-        name = f"piv-manager-{datetime.now():%Y%m%d-%H%M%S}.sqlite3"
+        name = f"valiman-{datetime.now():%Y%m%d-%H%M%S}.sqlite3"
         try:
             path = backup_database(database_path, backup_dir / name)
             st.success(f"Backup created and integrity-checked: {path}")

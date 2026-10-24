@@ -1,1 +1,1 @@
-"""PIV Manager application package."""
+"""VALIMAN application package."""

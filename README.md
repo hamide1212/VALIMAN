@@ -1,6 +1,6 @@
-# PIV Manager
+# VALIMAN
 
-Local automotive validation management built with Streamlit, SQLite, Pandas, and Plotly.
+VALIMAN is a local automotive validation management app built with Streamlit, SQLite, Pandas, and Plotly.
 
 ## Windows setup
 
@@ -44,7 +44,7 @@ The application includes project/component, supplier/contact, test/retest, sampl
 
 The app can run on Community Cloud, but its SQLite database and uploaded files live on the app machine's local filesystem. That filesystem is not a durable production database or file store across app restarts/redeployments. Use Community Cloud for a demo only unless you replace local SQLite/files with durable managed storage and configure an appropriate backup strategy. See [USER_GUIDE.md](USER_GUIDE.md) for local data and backup details.
 
-Verified database backups are stored in `%USERPROFILE%\.piv_manager\backups`. Documents use unique stored filenames under `%USERPROFILE%\.piv_manager\documents`; existing files are never silently replaced.
+Verified database backups are stored in `%USERPROFILE%\.piv_manager\backups` with `valiman-` filenames. Documents use unique stored filenames under `%USERPROFILE%\.piv_manager\documents`; existing files are never silently replaced.
 
 ## Deployment note
 
